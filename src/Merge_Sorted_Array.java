@@ -73,9 +73,6 @@ public class Merge_Sorted_Array {
             nums1[k--] = nums2[j--];
         }
 
-
-
-
     }
     static void main(){
 
