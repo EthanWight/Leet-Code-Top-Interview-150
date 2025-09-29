@@ -77,7 +77,7 @@ public class Merge_Sorted_Array {
 
 
     }
-    public static void main(String[] args){
+    static void main(String[] args){
 
         //Example 1:
         int[] ex1Nums1 = {1,2,3,0,0,0};
