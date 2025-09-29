@@ -8,7 +8,7 @@ The main goal of this repository is to serve as a personal log of my progress an
 
 ## Structure
 
-Each problem is organized in its own file, named according to the problem's title on LeetCode.
+Each problem is organized in its own Java file, named according to the problem's title on LeetCode.
 
 ---
 
