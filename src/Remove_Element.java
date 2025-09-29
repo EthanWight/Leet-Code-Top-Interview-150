@@ -3,7 +3,7 @@
     Easy
 
     Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.
-    The order of the elements may be changed. Then return the number of elements in nums which are
+    The order of the elements may be changed. Then return the number of elements in nums that is
     not equal to val.
 
     Consider the number of elements in nums which are not equal to val be k, to get accepted, you
@@ -19,7 +19,7 @@
 
     int[] nums = [...]; // Input array
     int val = ...; // Value to remove
-    int[] expectedNums = [...]; // The expected answer with correct length.
+    int[] expectedNums = [...]; // The expected answer with the correct length.
                                 // It is sorted with no values equaling val.
 
     int k = removeElement(nums, val); // Calls your implementation
@@ -75,7 +75,7 @@ void main() {
     //Example 1:
     int[] nums1 = {3, 2, 2, 3}; // Input array
     int val1 = 3; // Value to remove
-    int[] expectedNums1 = {2, 2}; // The expected answer with correct length.
+    int[] expectedNums1 = {2, 2}; // The expected answer with the correct length.
     // It is sorted with no values equaling val.
     int k = removeElement(nums1, val1); // Calls your implementation
     assert k == expectedNums1.length;
@@ -87,7 +87,7 @@ void main() {
     //Example 2:
     int[] nums2 = {0, 1, 2, 2, 3, 0, 4, 2}; // Input array
     int val2 = 2; // Value to remove
-    int[] expectedNums2 = {0, 1, 4, 0, 3}; // The expected answer with correct length.
+    int[] expectedNums2 = {0, 1, 4, 0, 3}; // The expected answer with the correct length.
     // It is sorted with no values equaling val.
     int l = removeElement(nums2, val2); // Calls your implementation
     assert l == expectedNums2.length;
