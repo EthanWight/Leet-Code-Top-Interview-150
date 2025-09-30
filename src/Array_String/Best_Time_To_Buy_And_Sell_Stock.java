@@ -2,7 +2,7 @@
 121. Best Time to Buy and Sell Stock
 Easy
 
-You are given an array prices where prices[i] is the price of a given stock on the ith day.
+You are given an array price where prices[i] is the price of a given stock on the ith day.
 
 You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
@@ -31,7 +31,7 @@ public int maxProfit(int[] prices) {
     int min=prices[0]; //the minimum price seen so far
     int pr=0; //the maximum profit seen so far
     for(int i=1;i<prices.length;i++){ //iterate through the array
-        if(prices[i]<min){ //if the current price is less than the minimum price seen so far, then update the minimum price and reset the maximum profit
+        if(prices[i]<min){ //if the current price is lower than the minimum price seen so far, then update the minimum price and reset the maximum profit
             min=prices[i];
         }
         else{ //otherwise, update the maximum profit
